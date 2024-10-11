@@ -21,6 +21,8 @@ document.createElement("classList.add", "appendChild")
 
 addButton.addEventListener(onclick,addTask())
 
-taskInput.addEventListener('keypress', addTask(event))
+taskInput.addEventListener('keypress', addTask(event)
+if event.key = 'Enter'
+));
 
-})
+});
