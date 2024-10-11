@@ -17,6 +17,8 @@ function addTask(){
 
 }
 
+document.createElement("classList.add", "appendChild")
+
 addButton(document.addEventListener(onclick,addTask()))
 
 taskInput(document.addEventListener('keypress', addTask(event);
