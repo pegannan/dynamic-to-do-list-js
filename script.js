@@ -8,7 +8,7 @@ document.addeventlistener("DOMContentLoaded", (event) => {
 
 
 function addTask(){
-    var taskTest = taskInput = ''.trim();
+    var taskTest = taskInput.value.trim();
     if  (taskTest === "") { alert('user:enter a task');}
     else if (taskTest !== ""){
         taskList = <li>taskText</li>; <button class="remove-btn" onclick=" ">Remove</button>
