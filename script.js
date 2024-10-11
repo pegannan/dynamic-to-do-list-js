@@ -1,4 +1,4 @@
-document.addeventlistener("DOMContentLoaded", (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
     
     const addButton = document.getElementById('add-task-btn')
 
@@ -23,6 +23,6 @@ addButton.addEventListener(onclick,addTask())
 
 taskInput.addEventListener('keypress', addTask(event)
 if event.key = 'Enter'
-));
+);
 
 });
